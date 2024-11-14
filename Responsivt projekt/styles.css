@@ -1,0 +1,688 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+/* Basis for mobile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.hero-banner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.banner-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+
+/* Basic Header Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo */
+.header-left .logo {
+    max-width: 100%;
+}
+
+/* Burger Menu - Only Visible on Mobile */
+.burger-menu {
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hide Navigation Menu on Mobile */
+.nav-menu {
+    display: none; 
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    z-index: 10;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5em 0;
+    font-size: 1.2em;
+    display: block;
+}
+
+/* Header Right Section (Search Bar and Cart Icon) */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 25px;
+    padding: 0.5em 1em;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5em;
+    font-size: 1em;
+    max-width: 70%;;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.navbar-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px 0;
+    color: #000;
+    text-decoration: none;
+    margin: 50px;
+    justify-content: center;
+}
+
+
+
+/* Scrollable product cards */
+.product-cards {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 1em;
+    padding: 1em;
+    max-width: 100%;
+}
+
+/* Hide scrollbar */
+.product-cards::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* Responsive video banner container */
+.video-banner-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; 
+    overflow: hidden;
+}
+
+/* Styling for iframe to fit container */
+.video-banner-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7; 
+    border: none;
+    z-index: 2; 
+}
+
+/* Transparent overlay to block clicks */
+/* Responsive video banner container */
+.video-banner-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; 
+    overflow: hidden;
+}
+
+/* Styling for iframe to fit container */
+.video-banner-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7; 
+    border: none;
+    z-index: 2; 
+}
+
+/* Transparent overlay to block clicks */
+.click-blocker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 10; 
+    pointer-events: none; 
+}
+
+
+
+
+
+
+.discount-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: #fff;
+    padding: 0.3em;
+}
+
+.category-banner {
+    text-align: center;
+    padding: 1em;
+    background-color: #f7f7f7;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    text-align: center;
+}
+
+
+
+/* Product Card */
+.product-card {
+    width: 100%;
+    max-width: 300px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+/* Product Image Section */
+.product-image {
+    position: relative;
+    padding: 1em;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.icon-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.icon {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Product Name */
+.product-card h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    margin: 0.5em 0;
+}
+
+/* Price */
+.price {
+    color: #e60023;
+    font-weight: bold;
+    margin: 0.3em 0;
+}
+
+/* Rating */
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3em;
+}
+
+.stars {
+    font-size: 1em;
+}
+
+.review-count {
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet og Desktop */
+@media (min-width: 768px) {
+
+    .product-cards {
+          display: grid;
+          place-items: center;
+          gap: 1em;
+          grid-template-columns: 1fr 1fr 1fr;
+          padding: 1em;
+      }
+      
+      .hero-banner {        
+          margin: 40px;
+          position: relative;
+      }
+  
+      .banner-2 {
+      margin: 40px;
+      align-items: center;
+      }
+  
+      footer {
+          grid-template-columns: repeat(4, 1fr);
+          text-align: left;
+          place-items: center;
+      }
+  
+      .header-left .logo {
+        max-width: 100%;
+    }
+
+      .nav-menu {
+        display: flex;
+        gap: 1.5em;
+    }
+    
+    .burger-menu {
+        display: none; 
+    }
+
+    .nav-menu {
+        display: flex; 
+        position: static;
+        max-width: 30%;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .nav-menu a {
+        font-size: 1em;
+        padding: 0;
+    }
+  }
+
+
+
+ .cart-icon {
+    font-size: 2.0em;
+    cursor: pointer;
+}
+
+.hero-banner {
+    position: relative;
+    width: 100%; 
+    height: auto; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.hero-banner img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+    object-position: center; 
+}
+
+.section-title {
+    font-size: 2rem; 
+    font-family: 'Georgia', serif; 
+    font-weight: normal;
+    text-align: center;
+    color: #333; 
+    position: relative;
+    margin-top: 60px;
+    padding-bottom: 20px; 
+}
+
+.section-title::after {
+    content: ''; 
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px; 
+    height: 3px; 
+    background-color: #e60023;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px; 
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto; 
+    margin-bottom: 30px;
+}
+
+.card-item {
+    flex: 1 1 300px; 
+    max-width: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item .card-top {
+    padding: 20px;
+    color: #fff;
+}
+
+.card-item.outlet-card .card-top {
+    background-color: #e52f2f;
+    color: #ffffff;
+}
+
+.card-item.gaming-card .card-top {
+    background-color: #e52f2f;
+    color: #ffffff;
+}
+
+.card-item .card-top h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-item .card-top p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fff;
+    text-align: left;
+    flex-grow: 1; 
+}
+
+.card-body h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #333;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+.product-card .product-image img {
+    width: 100%;       
+    height: auto;      
+    max-width: 150px;  
+}
+
+
+/* Stil for at gøre banneret responsivt */
+.video-banner-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; 
+    overflow: hidden;
+}
+
+ /* Video iframe med lavere opacitet */
+ .video-banner-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7; 
+    border: none;
+}
+
+ /* Rødt banner i hjørnet */
+ .corner-banner {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff0000; 
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px; 
+    z-index: 3; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Transparent overlay for at blokere klik */
+.click-blocker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+}
+
+/* Om os */
+.about-content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .about-content .text {
+    flex: 1 1 40%; 
+    padding-right: 20px;
+  }
+  
+  .about-content .text h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .about-content .image {
+    flex: 1 1 60%; 
+    height: 100%;
+  }
+  
+  .about-content .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  /* Statistics Section */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .stat-item {
+    flex: 1;
+    padding: 10px;
+    max-width: 250px;
+  }
+  
+  .stat-item p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6868;
+  }
+  
+  .stat-item p:last-child {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Highlighted Stat Item */
+  .highlighted {
+    background-color: #ffe5e5;
+    border-radius: 5px;
+  }
+
+  
+/* Responsiv Design */
+@media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .about-content .text, .about-content .image {
+      flex: 1 1 100%;
+    }
+  
+    .about-content .image img {
+      height: auto;
+    }
+  
+    .stats {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .stat-item {
+      margin-bottom: 10px;
+    }
+  }
+  

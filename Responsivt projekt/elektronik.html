@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektronik</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <a href="index.html"><img src="img/logo.png" alt="Proshop Logo" class="logo"></a>
+        </div>
+        <button class="burger-menu" onclick="toggleMenu()">☰</button>
+    
+        <!-- Navbar -->
+        <nav class="nav-menu">
+            <a href="#">Erhverv</a>
+            <a href="omos.html">Om os</a>
+            <a href="#">Deals</a>
+        </nav>
+    
+        <div class="header-right">
+            <div class="search-bar">
+                <input type="text" placeholder="Søg produkter..." aria-label="Søg produkter">
+                <button class="search-button" aria-label="Søg">🔍</button>
+            </div>
+            <div class="cart-icon" aria-label="Shopping Cart">🛒</div>
+        </div>
+    </header>
+    
+
+<!-- Hero Video -->
+    <main>
+        <div class="video-banner-container">
+        <div class="corner-banner">Proshop støtter Samsung</div>
+         <div class="click-blocker"></div>
+            <iframe 
+                src="https://www.youtube.com/embed/1aqG3gJjxAI?autoplay=1&mute=1&loop=1&playlist=1aqG3gJjxAI&controls=0&showinfo=0&rel=0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+
+<!-- Navbar sidemenu-->
+    <div class="navbar">
+        <a href="elektronik.html" class="navbar-item">
+            <span>Elektronik</span>
+         
+        </a>
+        <a href="pleje.html" class="navbar-item">
+            <span>Pleje</span>
+            
+        </a>
+        <a href="#" class="navbar-item">
+            <span>Husholdning</span>
+            
+        </a>
+    </div>
+
+
+<!-- Sektions tekst -->
+        <h2 class="section-title">Bedst sælgende produkter anbefalet til dig</h2>
+
+
+        <!-- Produkt cards -->
+        <div class="scroll.container">
+            <section class="product-cards">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/produkt_billeder/headset.png" alt="Headset">
+                        <div class="icon-container">
+                            <div class="icon heart">♡</div>
+                            <div class="icon eye">👁️</div>
+                        </div>
+                    </div>
+                    <h3>B & W</h3>
+                    <p class="price">3.200kr</p>
+                    <div class="rating">
+                        <p class="stars">⭐⭐⭐⭐☆</p>
+                        <p class="review-count">(145)</p>
+                    </div>
+                </div>
+            
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/produkt_billeder/headset2.png" alt="headset2">
+                        <div class="icon-container">
+                            <div class="icon heart">♡</div>
+                            <div class="icon eye">👁️</div>
+                        </div>
+                    </div>
+                    <h3>B & O</h3>
+                    <p class="price">2.100kr</p>
+                    <div class="rating">
+                        <p class="stars">⭐⭐⭐⭐☆</p>
+                        <p class="review-count">(300)</p>
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/produkt_billeder/inears.png" alt="In ears">
+                        <div class="icon-container">
+                            <div class="icon heart">♡</div>
+                            <div class="icon eye">👁️</div>
+                        </div>
+                    </div>
+                    <h3>B & O In Ears</h3>
+                    <p class="price">1.300kr</p>
+                    <div class="rating">
+                        <p class="stars">⭐⭐⭐⭐☆</p>
+                        <p class="review-count">(450)</p>
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/produkt_billeder/ram.png" alt="corsair ram">
+                        <div class="icon-container">
+                            <div class="icon heart">♡</div>
+                            <div class="icon eye">👁️</div>
+                        </div>
+                    </div>
+                    <h3>Corsair ram</h3>
+                    <p class="price">550kr</p>
+                    <div class="rating">
+                        <p class="stars">⭐⭐⭐⭐⭐</p>
+                        <p class="review-count">(87)</p>
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/produkt_billeder/razermus2.png" alt="razer mus">
+                        <div class="icon-container">
+                            <div class="icon heart">♡</div>
+                            <div class="icon eye">👁️</div>
+                        </div>
+                    </div>
+                    <h3>Razer mus
+                    </h3>
+                    <p class="price">450kr</p>
+                    <div class="rating">
+                        <p class="stars">⭐☆☆☆☆</p>
+                        <p class="review-count">(900)</p>
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/produkt_billeder/logitechmus.png" alt="Logitech mus">
+                        <div class="icon-container">
+                            <div class="icon heart">♡</div>
+                            <div class="icon eye">👁️</div>
+                        </div>
+                    </div>
+                    <h3>Logitech mus</h3>
+                    <p class="price">750kr</p>
+                    <div class="rating">
+                        <p class="stars">⭐⭐⭐⭐☆</p>
+                        <p class="review-count">(248)</p>
+                    </div>
+                </div>
+             </section>
+         </div>
+
+
+         <!-- sektions tekst -->
+         <h2 class="section-title">Særligt udvalgte varer til dig</h2>
+
+
+         <!-- Produkt cards -->
+         <div class="scroll.container">
+            <section class="product-cards">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/produkt_billeder/sensor.png" alt="laser maskine">
+                        <div class="icon-container">
+                            <div class="icon heart">♡</div>
+                            <div class="icon eye">👁️</div>
+                        </div>
+                    </div>
+                    <h3>Laserboks</h3>
+                    <p class="price">2.250kr</p>
+                    <div class="rating">
+                        <p class="stars">⭐⭐☆☆☆</p>
+                        <p class="review-count">(999)</p>
+                    </div>
+                </div>
+            
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/produkt_billeder/sony.png" alt="sony kamera">
+                        <div class="icon-container">
+                            <div class="icon heart">♡</div>
+                            <div class="icon eye">👁️</div>
+                        </div>
+                    </div>
+                    <h3>Sony A3000</h3>
+                    <p class="price">4.700kr</p>
+                    <div class="rating">
+                        <p class="stars">⭐⭐⭐⭐☆</p>
+                        <p class="review-count">(1.300)</p>
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/produkt_billeder/nikon.png" alt="Nikon kamera">
+                        <div class="icon-container">
+                            <div class="icon heart">♡</div>
+                            <div class="icon eye">👁️</div>
+                        </div>
+                    </div>
+                    <h3>Nikon L20</h3>
+                    <p class="price">7.900kr</p>
+                    <div class="rating">
+                        <p class="stars">⭐☆☆☆☆</p>
+                        <p class="review-count">(400)</p>
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/produkt_billeder/canonkamera.png" alt="kamera">
+                        <div class="icon-container">
+                            <div class="icon heart">♡</div>
+                            <div class="icon eye">👁️</div>
+                        </div>
+                    </div>
+                    <h3>Canon EOS1</h3>
+                    <p class="price">2.999kr</p>
+                    <div class="rating">
+                        <p class="stars">⭐⭐⭐⭐⭐</p>
+                        <p class="review-count">(572)</p>
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/produkt_billeder/controller1.png" alt="controller">
+                        <div class="icon-container">
+                            <div class="icon heart">♡</div>
+                            <div class="icon eye">👁️</div>
+                        </div>
+                    </div>
+                    <h3>Controller</h3>
+                    <p class="price">1.000kr</p>
+                    <div class="rating">
+                        <p class="stars">⭐⭐☆☆☆</p>
+                        <p class="review-count">(240)</p>
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/produkt_billeder/fujifilm.png" alt="Fujifilm kamera">
+                        <div class="icon-container">
+                            <div class="icon heart">♡</div>
+                            <div class="icon eye">👁️</div>
+                        </div>
+                    </div>
+                    <h3>FujiFilm 3</h3>
+                    <p class="price">12.500kr</p>
+                    <div class="rating">
+                        <p class="stars">⭐⭐☆☆☆</p>
+                        <p class="review-count">(5)</p>
+                    </div>
+                </div>
+             </section>
+         </div>
+
+
+
+
+         <!-- Udsalgs og udvalgte vare cards-->
+         <div class="card-container">
+            <!-- Outlet Product Card -->
+            <div class="card-item outlet-card">
+                <div class="card-top">
+                    <h2>KÆMPE OUTLET MED STORE BESPARRELSER</h2>
+                    <p>Spar op til 35%</p>
+                </div>
+                <div class="card-image-section">
+                </div>
+                <div class="card-body">
+                    <h3>Produkter til lavere priser</h3>
+                    <p>Du har samme returret, reklamationsret og kundegaranti, som var det et helt nyt produkt, og samtidig værner du om miljøet ved at købe outletvarer.</p>
+                    <button>Se udvalg</button>
+                </div>
+            </div>
+    
+            <!-- Gaming Product Card -->
+            <div class="card-item gaming-card">
+                <div class="card-top">
+                    <h2>MÅNEDENS UDVALGTE GAMING GEAR TIL LAVE PRISER</h2>
+                    <p>Udvalgte produkter til legendariske priser!</p>
+                </div>
+                <div class="card-image-section">
+                </div>
+                <div class="card-body">
+                    <h3>Månedens gaming gear</h3>
+                    <p>Gaming kræver det rette udstyr med god ydeevne, præcision og komfort. Se denne måneds udvalgte gaming gear til gode priser.</p>
+                    <button>Se udvalg</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+<!-- Footer-->
+    <footer>
+        <div class="footer-section">
+            <h4>Konto</h4>
+            <ul>
+                <li><a href="#">Min konto</a></li>
+                <li><a href="#">Login / Register</a></li>
+                <li><a href="#">Kurv</a></li>
+                <li><a href="#">Ønskeliste</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Sociale medier</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Betingelser</h4>
+            <ul>
+                <li><a href="#">Privat politik</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Support</h4>
+            <p>Proshop a/s<br>Slet Møllevej 17<br>8270 Højbjerg<br>Danmark</p>
+            <p><a href="mailto:support@proshop.dk">support@proshop.dk</a></p>
+            <p>+45 70 20 50 80</p>
+        </div>
+    </footer>
+
+</body>
+</html>

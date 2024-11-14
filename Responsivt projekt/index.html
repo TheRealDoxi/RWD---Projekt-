@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROSHOP - High-Quality Products & Deals</title>
+    <meta name="description" content="Shop high-quality products and explore great deals at Proshop. Discover top products for business and personal needs.">
+    <link rel="stylesheet" href="styles.css">
+    <script src="burger.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Proshop Logo" class="logo">
+            </a>
+        </div>
+        <button class="burger-menu" onclick="toggleMenu()" aria-label="Open Menu">☰</button>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu">
+            <a href="#">Erhverv</a>
+            <a href="omos.html">Om os</a>
+            <a href="#">Deals</a>
+        </nav>
+
+        <div class="header-right">
+            <div class="search-bar">
+                <input type="text" placeholder="Søg produkter..." aria-label="Søg produkter">
+                <button class="search-button" aria-label="Søg">🔍</button>
+            </div>
+            <div class="cart-icon" aria-label="Shopping Cart">🛒</div>
+        </div>
+    </header>
+
+    <!-- Video Banner -->
+    <section class="video-banner-container" aria-label="Promotional Video">
+        <div class="click-blocker"></div>
+        <iframe 
+            src="https://www.youtube.com/embed/pLoq1stTuqs?autoplay=1&mute=1&loop=1&playlist=pLoq1stTuqs&controls=0&showinfo=0&modestbranding=1" 
+            allow="autoplay; encrypted-media"
+            title="Proshop Corporate Video 2022 - English"
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- Category Navigation -->
+    <nav class="navbar" aria-label="Product Categories">
+        <a href="elektronik.html" class="navbar-item"><span>Elektronik</span></a>
+        <a href="pleje.html" class="navbar-item"><span>Pleje</span></a>
+        <a href="#" class="navbar-item"><span>Husholdning</span></a>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="banner-2" aria-label="iPhone Promotion">
+        <img src="img/iphone_reklame.png" alt="Promotion for iPhone 14 Series">
+    </section>
+
+
+
+    <!-- Produkt cards -->
+        <section class="product-cards" aria-label="Featured Products">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/produkt_billeder/headset.png" alt="B & W Headset">
+                    <div class="icon-container">
+                        <button class="icon heart" aria-label="Add to Wishlist">♡</button>
+                        <button class="icon eye" aria-label="View Details">👁️</button>
+                    </div>
+                </div>
+                <h3>B & W</h3>
+                <p class="price">3.200kr</p>
+                <div class="rating">
+                    <p class="stars" aria-label="4 stars">⭐⭐⭐⭐☆</p>
+                    <p class="review-count">(145)</p>
+                </div>
+            </div>
+    
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/produkt_billeder/headset2.png" alt="B & O Headset">
+                    <div class="icon-container">
+                        <button class="icon heart" aria-label="Add to Wishlist">♡</button>
+                        <button class="icon eye" aria-label="View Details">👁️</button>
+                    </div>
+                </div>
+                <h3>B & O</h3>
+                <p class="price">2.100kr</p>
+                <div class="rating">
+                    <p class="stars" aria-label="4 stars">⭐⭐⭐⭐☆</p>
+                    <p class="review-count">(300)</p>
+                </div>
+            </div>
+    
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/produkt_billeder/inears.png" alt="B & O In Ears">
+                    <div class="icon-container">
+                        <button class="icon heart" aria-label="Add to Wishlist">♡</button>
+                        <button class="icon eye" aria-label="View Details">👁️</button>
+                    </div>
+                </div>
+                <h3>B & O In Ears</h3>
+                <p class="price">1.300kr</p>
+                <div class="rating">
+                    <p class="stars" aria-label="4 stars">⭐⭐⭐⭐☆</p>
+                    <p class="review-count">(450)</p>
+                </div>
+            </div>
+    
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/produkt_billeder/ram.png" alt="Corsair RAM">
+                    <div class="icon-container">
+                        <button class="icon heart" aria-label="Add to Wishlist">♡</button>
+                        <button class="icon eye" aria-label="View Details">👁️</button>
+                    </div>
+                </div>
+                <h3>Corsair RAM</h3>
+                <p class="price">550kr</p>
+                <div class="rating">
+                    <p class="stars" aria-label="5 stars">⭐⭐⭐⭐⭐</p>
+                    <p class="review-count">(87)</p>
+                </div>
+            </div>
+    
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/produkt_billeder/razermus2.png" alt="Razer Mouse">
+                    <div class="icon-container">
+                        <button class="icon heart" aria-label="Add to Wishlist">♡</button>
+                        <button class="icon eye" aria-label="View Details">👁️</button>
+                    </div>
+                </div>
+                <h3>Razer Mouse</h3>
+                <p class="price">450kr</p>
+                <div class="rating">
+                    <p class="stars" aria-label="1 star">⭐☆☆☆☆</p>
+                    <p class="review-count">(900)</p>
+                </div>
+            </div>
+    
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/produkt_billeder/logitechmus.png" alt="Logitech Mouse">
+                    <div class="icon-container">
+                        <button class="icon heart" aria-label="Add to Wishlist">♡</button>
+                        <button class="icon eye" aria-label="View Details">👁️</button>
+                    </div>
+                </div>
+                <h3>Logitech Mouse</h3>
+                <p class="price">750kr</p>
+                <div class="rating">
+                    <p class="stars" aria-label="4 stars">⭐⭐⭐⭐☆</p>
+                    <p class="review-count">(248)</p>
+                </div>
+            </div>
+        </section>
+
+
+
+    <!-- Banner 2 -->
+    <section class="banner-2">
+        <img src="img/produkt_billeder/plejeforside.png" alt="Billede af pleje">
+    </section>
+    
+
+
+    <section class="product-cards" aria-label="Personal Care Products">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje1.png" alt="Clean Perfume">
+                <div class="icon-container">
+                    <button class="icon heart" aria-label="Add to Wishlist">♡</button>
+                    <button class="icon eye" aria-label="View Details">👁️</button>
+                </div>
+            </div>
+            <h3>Clean</h3>
+            <p class="price">600kr</p>
+            <div class="rating">
+                <p class="stars" aria-label="4 stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje2.png" alt="Cream">
+                <div class="icon-container">
+                    <button class="icon heart" aria-label="Add to Wishlist">♡</button>
+                    <button class="icon eye" aria-label="View Details">👁️</button>
+                </div>
+            </div>
+            <h3>Cream</h3>
+            <p class="price">300kr</p>
+            <div class="rating">
+                <p class="stars" aria-label="4 stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje3.png" alt="Mascara">
+                <div class="icon-container">
+                    <button class="icon heart" aria-label="Add to Wishlist">♡</button>
+                    <button class="icon eye" aria-label="View Details">👁️</button>
+                </div>
+            </div>
+            <h3>Mascara</h3>
+            <p class="price">350kr</p>
+            <div class="rating">
+                <p class="stars" aria-label="4 stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje4.png" alt="Brushes">
+                <div class="icon-container">
+                    <button class="icon heart" aria-label="Add to Wishlist">♡</button>
+                    <button class="icon eye" aria-label="View Details">👁️</button>
+                </div>
+            </div>
+            <h3>Brushes</h3>
+            <p class="price">450kr</p>
+            <div class="rating">
+                <p class="stars" aria-label="4 stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleeje5.png" alt="Dumbbells">
+                <div class="icon-container">
+                    <button class="icon heart" aria-label="Add to Wishlist">♡</button>
+                    <button class="icon eye" aria-label="View Details">👁️</button>
+                </div>
+            </div>
+            <h3>Dumbbells</h3>
+            <p class="price">250kr</p>
+            <div class="rating">
+                <p class="stars" aria-label="4 stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje6.png" alt="Id Wax">
+                <div class="icon-container">
+                    <button class="icon heart" aria-label="Add to Wishlist">♡</button>
+                    <button class="icon eye" aria-label="View Details">👁️</button>
+                </div>
+            </div>
+            <h3>Id Wax</h3>
+            <p class="price">100kr</p>
+            <div class="rating">
+                <p class="stars" aria-label="4 stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+    </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-section">
+        <h4>Konto</h4>
+        <ul>
+            <li><a href="#">Min konto</a></li>
+            <li><a href="#">Login / Register</a></li>
+            <li><a href="#">Kurv</a></li>
+            <li><a href="#">Ønskeliste</a></li>
+            <li><a href="#">Shop</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-section">
+        <h4>Sociale medier</h4>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-section">
+        <h4>Betingelser</h4>
+        <ul>
+            <li><a href="#">Privat politik</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-section">
+        <h4>Support</h4>
+        <address>
+            Proshop a/s<br>
+            Slet Møllevej 17<br>
+            8270 Højbjerg, Danmark<br>
+            <a href="mailto:support@proshop.dk">support@proshop.dk</a><br>
+            <a href="tel:+4570205080">+45 70 20 50 80</a>
+        </address>
+    </div>
+</footer>
+
+</body>
+
+</html>

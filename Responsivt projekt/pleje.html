@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROSHOP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <a href="index.html"><img src="img/logo.png" alt="Proshop Logo" class="logo"></a>
+        </div>
+        <button class="burger-menu" onclick="toggleMenu()">☰</button>
+    
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu">
+            <a href="#">Erhverv</a>
+            <a href="omos.html">Om os</a>
+            <a href="#">Deals</a>
+        </nav>
+    
+        <div class="header-right">
+            <div class="search-bar">
+                <input type="text" placeholder="Søg produkter..." aria-label="Søg produkter">
+                <button class="search-button" aria-label="Søg">🔍</button>
+            </div>
+            <div class="cart-icon" aria-label="Shopping Cart">🛒</div>
+        </div>
+    </header>
+
+    <!-- -->
+    <div class="navbar">
+        <a href="elektronik.html" class="navbar-item">
+            <span>Elektronik</span>
+         
+        </a>
+        <a href="pleje.html" class="navbar-item">
+            <span>Pleje</span>
+            
+        </a>
+        <a href="#" class="navbar-item">
+            <span>Husholdning</span>
+            
+        </a>
+    </div>
+
+
+
+    <!-- Hero Banner -->
+    <section class="banner-2">
+        <img src="img/produkt_billeder/plejeforside.png" alt="iPhone 14 Series">
+    </section>
+
+
+
+    <!-- Produktkort Sektion -->
+    <section class="product-cards">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje1.png" alt="Clean">
+                <div class="icon-container">
+                    <div class="icon heart">♡</div>
+                    <div class="icon eye">👁️</div>
+                </div>
+            </div>
+            <h3>Clean</h3>
+            <p class="price">600kr</p>
+            <div class="rating">
+                <p class="stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje2.png" alt="Creme">
+                <div class="icon-container">
+                    <div class="icon heart">♡</div>
+                    <div class="icon eye">👁️</div>
+                </div>
+            </div>
+            <h3>Creme</h3>
+            <p class="price">300kr</p>
+            <div class="rating">
+                <p class="stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje3.png" alt="mascara">
+                <div class="icon-container">
+                    <div class="icon heart">♡</div>
+                    <div class="icon eye">👁️</div>
+                </div>
+            </div>
+            <h3>mascara</h3>
+            <p class="price">350kr</p>
+            <div class="rating">
+                <p class="stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje4.png" alt="børster">
+                <div class="icon-container">
+                    <div class="icon heart">♡</div>
+                    <div class="icon eye">👁️</div>
+                </div>
+            </div>
+            <h3>børster</h3>
+            <p class="price">450kr</p>
+            <div class="rating">
+                <p class="stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleeje5.png" alt="Håndvægte">
+                <div class="icon-container">
+                    <div class="icon heart">♡</div>
+                    <div class="icon eye">👁️</div>
+                </div>
+            </div>
+            <h3>håndvægte</h3>
+            <p class="price">250kr</p>
+            <div class="rating">
+                <p class="stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje6.png" alt="Id voks">
+                <div class="icon-container">
+                    <div class="icon heart">♡</div>
+                    <div class="icon eye">👁️</div>
+                </div>
+            </div>
+            <h3>Id voks</h3>
+            <p class="price">100krkr</p>
+            <div class="rating">
+                <p class="stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+     </section>
+
+    <h2 class="section-title">Bedst sælgende produkter anbefalet til dig</h2>
+
+    <!-- Produktkort Sektion 2 -->
+    <section class="product-cards">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje4.png" alt="børster">
+                <div class="icon-container">
+                    <div class="icon heart">♡</div>
+                    <div class="icon eye">👁️</div>
+                </div>
+            </div>
+            <h3>børster</h3>
+            <p class="price">450kr</p>
+            <div class="rating">
+                <p class="stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleeje5.png" alt="Håndvægte">
+                <div class="icon-container">
+                    <div class="icon heart">♡</div>
+                    <div class="icon eye">👁️</div>
+                </div>
+            </div>
+            <h3>håndvægte</h3>
+            <p class="price">250kr</p>
+            <div class="rating">
+                <p class="stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje6.png" alt="Id voks">
+                <div class="icon-container">
+                    <div class="icon heart">♡</div>
+                    <div class="icon eye">👁️</div>
+                </div>
+            </div>
+            <h3>Id voks</h3>
+            <p class="price">100krkr</p>
+            <div class="rating">
+                <p class="stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje1.png" alt="Clean">
+                <div class="icon-container">
+                    <div class="icon heart">♡</div>
+                    <div class="icon eye">👁️</div>
+                </div>
+            </div>
+            <h3>Clean</h3>
+            <p class="price">600kr</p>
+            <div class="rating">
+                <p class="stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje2.png" alt="Creme">
+                <div class="icon-container">
+                    <div class="icon heart">♡</div>
+                    <div class="icon eye">👁️</div>
+                </div>
+            </div>
+            <h3>Creme</h3>
+            <p class="price">300kr</p>
+            <div class="rating">
+                <p class="stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="img/produkt_billeder/pleje3.png" alt="mascara">
+                <div class="icon-container">
+                    <div class="icon heart">♡</div>
+                    <div class="icon eye">👁️</div>
+                </div>
+            </div>
+            <h3>mascara</h3>
+            <p class="price">350kr</p>
+            <div class="rating">
+                <p class="stars">⭐⭐⭐⭐☆</p>
+                <p class="review-count">(145)</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Footer -->
+    
+    
+    <footer>
+        <div class="footer-section">
+            <h4>Konto</h4>
+            <ul>
+                <li><a href="#">Min konto</a></li>
+                <li><a href="#">Login / Register</a></li>
+                <li><a href="#">Kurv</a></li>
+                <li><a href="#">Ønskeliste</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Sociale medier</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Betingelser</h4>
+            <ul>
+                <li><a href="#">Privat politik</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Support</h4>
+            <p>Proshop a/s<br>Slet Møllevej 17<br>8270 Højbjerg<br>Danmark</p>
+            <p><a href="mailto:support@proshop.dk">support@proshop.dk</a></p>
+            <p>+45 70 20 50 80</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
